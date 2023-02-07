@@ -1,7 +1,7 @@
 /*
-=================================
-Problem 1: Let’s play a mind game
-=================================
+=================================================================================================
+------------------------------- Problem 1: Let’s play a mind game -------------------------------
+=================================================================================================
 তোমাকে একটা function দেওয়া হবে called mindGame
 (” যা ইনপুট হিসেবে একটা positive number নিবে।")
 
@@ -168,6 +168,7 @@ function findingBadData(numArray) {
     }
     return numOfBadData;
 }
+
 // console.log(findingBadData([1, 2, 5])); // output --> 0
 // console.log(findingBadData([2, -5, -7, -13])); // output --> 3
 // console.log(findingBadData([-4, -9, -5, -33, -55])); // output --> 5
@@ -225,8 +226,8 @@ function gemsToDiamond(fnd1Gems, fnd2Gems, fnd3Gems) {
     } return totalDiamond;
 }
 
-console.log(gemsToDiamond(1, 1, 1)); // output --> 96
-console.log(gemsToDiamond(20, 200, 50)); // output --> 6970
-console.log(gemsToDiamond(100, 5, 1)); // output --> 303
-console.log(gemsToDiamond(100, "5", 1)); // output --> Please type valid number
-console.log(gemsToDiamond([-4, -9, -5])); // output --> Please type valid number
+// console.log(gemsToDiamond(1, 1, 1)); // output --> 96
+// console.log(gemsToDiamond(20, 200, 50)); // output --> 6970
+// console.log(gemsToDiamond(100, 5, 1)); // output --> 303
+// console.log(gemsToDiamond(100, "5", 1)); // output --> Please type valid number
+// console.log(gemsToDiamond([-4, -9, -5])); // output --> Please type valid number
